@@ -1,0 +1,41 @@
+////************Git and Github commands****************///
+
+git add . => to add files
+git commit -m "message" => to commit whatever you change.
+git init => to initialize git repo to know it is github file.
+git remote add origin <-link-> => remote(github) to local folder
+git remote -v => to verify rremote.
+git branch => to check barnch.
+git branch -M main => to chanege name of branch.
+git push origin main => to push our local files to github files.
+git push -u origin main => to get upstream.
+
+Here some branch commands:-
+git branch => to check branch.
+git branch -M master => to change name of branch.
+git chekout <-branch name-> => to navigate branch
+git checkout -b <branch name-> => to create new branch.
+git branch -d <-branchname-> => to delete branch.
+
+To merge code:-
+way1:- git diff <-branch name-> =>to compare commits branches, files &more 
+git merge <-branch name-> to merge 2 branches
+way2:- create PR (Pull request).
+
+Pull command:- 
+git pull origin main => to fetch content from remote repo and immediately update the local repo to match that content.
+
+Avoiding Conflicts: to commit same line on both branch then git not able to know which branch should committed first.
+Undoing changes:-
+case1: staged changes:
+  git reset <-file name->
+  git reset
+case2: commited changes (for one commit)
+  git reset HEAD~1 => undo previous commit.
+Case3: Commited changes (for many commits)
+  git reset <-commit hash->
+  git reset --hard <-commit hash->
+
+git log => to show all commit.
+
+Fork : fork is rough copy it is used to create own rough copy of other github code.
