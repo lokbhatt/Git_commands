@@ -39,4 +39,3 @@ Case3: Commited changes (for many commits)
 git log => to show all commit.
 
 Fork : fork is rough copy it is used to create own rough copy of other github code.
-slack email is lokraj@easyaccessnepal.com
